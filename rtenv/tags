@@ -1,0 +1,199 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CMDBUF_SIZE	kernel.c	67;"	d	file:
+CMD_COUNT	kernel.c	/^	CMD_COUNT$/;"	e	enum:__anon1	file:
+CMD_ECHO	kernel.c	/^	CMD_ECHO = 0,$/;"	e	enum:__anon1	file:
+CMD_EXPORT	kernel.c	/^	CMD_EXPORT,$/;"	e	enum:__anon1	file:
+CMD_HELP	kernel.c	/^	CMD_HELP,$/;"	e	enum:__anon1	file:
+CMD_HISTORY	kernel.c	/^	CMD_HISTORY,$/;"	e	enum:__anon1	file:
+CMD_MAN	kernel.c	/^	CMD_MAN,$/;"	e	enum:__anon1	file:
+CMD_PS	kernel.c	/^	CMD_PS,$/;"	e	enum:__anon1	file:
+CMD_TYPE	kernel.c	/^} CMD_TYPE;$/;"	v	typeref:enum:__anon1
+HISTORY_COUNT	kernel.c	66;"	d	file:
+INCLUDE_uxTaskPriorityGet	RTOSConfig.h	30;"	d
+INCLUDE_vTaskCleanUpResources	RTOSConfig.h	32;"	d
+INCLUDE_vTaskDelay	RTOSConfig.h	35;"	d
+INCLUDE_vTaskDelayUntil	RTOSConfig.h	34;"	d
+INCLUDE_vTaskDelete	RTOSConfig.h	31;"	d
+INCLUDE_vTaskPrioritySet	RTOSConfig.h	29;"	d
+INCLUDE_vTaskSuspend	RTOSConfig.h	33;"	d
+MAX_ARGC	kernel.c	64;"	d	file:
+MAX_CMDHELP	kernel.c	65;"	d	file:
+MAX_CMDNAME	kernel.c	63;"	d	file:
+MAX_ENVCOUNT	kernel.c	68;"	d	file:
+MAX_ENVNAME	kernel.c	69;"	d	file:
+MAX_ENVVALUE	kernel.c	70;"	d	file:
+O_CREAT	kernel.c	92;"	d	file:
+PATHSERVER_FD	kernel.c	77;"	d	file:
+PATH_MAX	kernel.c	74;"	d	file:
+PATH_SERVER_NAME	kernel.c	186;"	d	file:
+PIPE_BUF	kernel.c	73;"	d	file:
+PIPE_LEN	kernel.c	842;"	d	file:
+PIPE_LIMIT	kernel.c	75;"	d	file:
+PIPE_PEEK	kernel.c	841;"	d	file:
+PIPE_POP	kernel.c	840;"	d	file:
+PIPE_PUSH	kernel.c	839;"	d	file:
+PRIORITY_DEFAULT	kernel.c	80;"	d	file:
+PRIORITY_LIMIT	kernel.c	81;"	d	file:
+RB_LEN	kernel.c	836;"	d	file:
+RB_PEEK	kernel.c	826;"	d	file:
+RB_POP	kernel.c	820;"	d	file:
+RB_PUSH	kernel.c	814;"	d	file:
+RTOS_CONFIG_H	RTOSConfig.h	2;"	d
+STACK_SIZE	kernel.c	71;"	d	file:
+S_IFIFO	kernel.c	89;"	d	file:
+S_IMSGQ	kernel.c	90;"	d	file:
+TASK_LIMIT	kernel.c	72;"	d	file:
+TASK_READY	kernel.c	83;"	d	file:
+TASK_WAIT_INTR	kernel.c	86;"	d	file:
+TASK_WAIT_READ	kernel.c	84;"	d	file:
+TASK_WAIT_TIME	kernel.c	87;"	d	file:
+TASK_WAIT_WRITE	kernel.c	85;"	d	file:
+__STM32F10x_CONF_H	stm32f10x_conf.h	23;"	d
+__STM32_P103_H	stm32_p103.h	2;"	d
+_lr	kernel.c	/^	unsigned int _lr;	\/* Back to system calls or return exception *\/$/;"	m	struct:user_thread_stack	file:
+_mknod	kernel.c	/^_mknod(struct pipe_ringbuffer *pipe, int dev)$/;"	f
+_r7	kernel.c	/^	unsigned int _r7;	\/* Backup from isr *\/$/;"	m	struct:user_thread_stack	file:
+_read	kernel.c	/^void _read(struct task_control_block *task, struct task_control_block *tasks, size_t task_count, struct pipe_ringbuffer *pipes)$/;"	f
+_write	kernel.c	/^void _write(struct task_control_block *task, struct task_control_block *tasks, size_t task_count, struct pipe_ringbuffer *pipes)$/;"	f
+assert_param	stm32f10x_conf.h	68;"	d
+assert_param	stm32f10x_conf.h	72;"	d
+check_keyword	kernel.c	/^void check_keyword()$/;"	f
+cmd	kernel.c	/^	char cmd[MAX_CMDNAME + 1];$/;"	m	struct:__anon2	file:
+cmd	kernel.c	/^char cmd[HISTORY_COUNT][CMDBUF_SIZE];$/;"	v
+cmd_data	kernel.c	/^const hcmd_entry cmd_data[CMD_COUNT] = {$/;"	v
+cmdtok	kernel.c	/^char *cmdtok(char *cmd)$/;"	f
+configCPU_CLOCK_HZ	RTOSConfig.h	11;"	d
+configIDLE_SHOULD_YIELD	RTOSConfig.h	19;"	d
+configKERNEL_INTERRUPT_PRIORITY	RTOSConfig.h	45;"	d
+configLIBRARY_KERNEL_INTERRUPT_PRIORITY	RTOSConfig.h	53;"	d
+configMAX_CO_ROUTINE_PRIORITIES	RTOSConfig.h	24;"	d
+configMAX_PRIORITIES	RTOSConfig.h	13;"	d
+configMAX_SYSCALL_INTERRUPT_PRIORITY	RTOSConfig.h	46;"	d
+configMAX_TASK_NAME_LEN	RTOSConfig.h	16;"	d
+configMINIMAL_STACK_SIZE	RTOSConfig.h	14;"	d
+configTICK_RATE_HZ	RTOSConfig.h	12;"	d
+configTOTAL_HEAP_SIZE	RTOSConfig.h	15;"	d
+configUSE_16_BIT_TICKS	RTOSConfig.h	18;"	d
+configUSE_CO_ROUTINES	RTOSConfig.h	23;"	d
+configUSE_IDLE_HOOK	RTOSConfig.h	9;"	d
+configUSE_MUTEXES	RTOSConfig.h	20;"	d
+configUSE_PREEMPTION	RTOSConfig.h	8;"	d
+configUSE_TICK_HOOK	RTOSConfig.h	10;"	d
+configUSE_TRACE_FACILITY	RTOSConfig.h	17;"	d
+cur_his	kernel.c	/^int cur_his=0;$/;"	v
+data	kernel.c	/^	char data[PIPE_BUF];$/;"	m	struct:pipe_ringbuffer	file:
+description	kernel.c	/^	char description[MAX_CMDHELP + 1];$/;"	m	struct:__anon2	file:
+echo	kernel.c	/^void echo()$/;"	f
+enable_button_interrupts	stm32_p103.c	/^void enable_button_interrupts(void)$/;"	f
+enable_rs232	stm32_p103.c	/^void enable_rs232(void)$/;"	f
+enable_rs232_interrupts	stm32_p103.c	/^void enable_rs232_interrupts(void)$/;"	f
+end	kernel.c	/^	int end;$/;"	m	struct:pipe_ringbuffer	file:
+env_count	kernel.c	/^int env_count = 0;$/;"	v
+env_var	kernel.c	/^evar_entry env_var[MAX_ENVCOUNT];$/;"	v
+evar_entry	kernel.c	/^} evar_entry;$/;"	t	typeref:struct:__anon3	file:
+export_envvar	kernel.c	/^void export_envvar(int argc, char *argv[])$/;"	f
+fdin	kernel.c	/^int fdin;$/;"	v
+fdout	kernel.c	/^int fdout;$/;"	v
+fifo_read	kernel.c	/^fifo_read (struct pipe_ringbuffer *pipe,$/;"	f
+fifo_readable	kernel.c	/^fifo_readable (struct pipe_ringbuffer *pipe,$/;"	f
+fifo_writable	kernel.c	/^fifo_writable (struct pipe_ringbuffer *pipe,$/;"	f
+fifo_write	kernel.c	/^fifo_write (struct pipe_ringbuffer *pipe,$/;"	f
+fill_arg	kernel.c	/^int fill_arg(char *const dest, const char *argv)$/;"	f
+find_envvar	kernel.c	/^char *find_envvar(const char *name)$/;"	f
+find_events	kernel.c	/^void find_events()$/;"	f
+first	kernel.c	/^void first()$/;"	f
+fp	kernel.c	/^	unsigned int fp;$/;"	m	struct:user_thread_stack	file:
+func	kernel.c	/^	void (*func)(int, char**);$/;"	m	struct:__anon2	file:
+greeting	kernel.c	/^void greeting()$/;"	f
+hcmd_entry	kernel.c	/^} hcmd_entry;$/;"	t	typeref:struct:__anon2	file:
+init_button	stm32_p103.c	/^void init_button(void)$/;"	f
+init_led	stm32_p103.c	/^void init_led(void)$/;"	f
+init_rs232	stm32_p103.c	/^void init_rs232(void)$/;"	f
+init_task	kernel.c	/^unsigned int *init_task(unsigned int *stack, void (*start)())$/;"	f
+ip	kernel.c	/^	unsigned int ip;$/;"	m	struct:user_thread_stack	file:
+itoa	kernel.c	/^void itoa(int n, char *dst, int base)$/;"	f
+lr	kernel.c	/^	unsigned int lr;	\/* Back to user thread code *\/$/;"	m	struct:user_thread_stack	file:
+main	kernel.c	/^int main()$/;"	f
+mkfifo	kernel.c	/^int mkfifo(const char *pathname, int mode)$/;"	f
+mkfile	kernel.c	/^int mkfile(const char *pathname, int mode, int dev)$/;"	f
+mq_open	kernel.c	/^int mq_open(const char *name, int oflag)$/;"	f
+mq_read	kernel.c	/^mq_read (struct pipe_ringbuffer *pipe,$/;"	f
+mq_readable	kernel.c	/^mq_readable (struct pipe_ringbuffer *pipe,$/;"	f
+mq_writable	kernel.c	/^mq_writable (struct pipe_ringbuffer *pipe,$/;"	f
+mq_write	kernel.c	/^mq_write (struct pipe_ringbuffer *pipe,$/;"	f
+name	kernel.c	/^	char name[MAX_ENVNAME + 1];$/;"	m	struct:__anon3	file:
+next	kernel.c	/^    struct task_control_block  *next;$/;"	m	struct:task_control_block	typeref:struct:task_control_block::task_control_block	file:
+next_line	kernel.c	/^char next_line[3] = {'\\n','\\r','\\0'};$/;"	v
+open	kernel.c	/^int open(const char *pathname, int flags)$/;"	f
+pathserver	kernel.c	/^void pathserver()$/;"	f
+pc	kernel.c	/^	unsigned int pc;$/;"	m	struct:user_thread_stack	file:
+pid	kernel.c	/^    int pid;$/;"	m	struct:task_control_block	file:
+pipe_ringbuffer	kernel.c	/^struct pipe_ringbuffer {$/;"	s	file:
+portBASE_TYPE	RTOSConfig.h	63;"	d
+portCHAR	RTOSConfig.h	57;"	d
+portDOUBLE	RTOSConfig.h	59;"	d
+portFLOAT	RTOSConfig.h	58;"	d
+portLONG	RTOSConfig.h	60;"	d
+portMAX_DELAY	RTOSConfig.h	67;"	d
+portMAX_DELAY	RTOSConfig.h	70;"	d
+portSHORT	RTOSConfig.h	61;"	d
+portSTACK_TYPE	RTOSConfig.h	62;"	d
+portTickType	RTOSConfig.h	/^typedef unsigned portLONG portTickType;$/;"	t
+portTickType	RTOSConfig.h	/^typedef unsigned portSHORT portTickType;                                $/;"	t
+prev	kernel.c	/^    struct task_control_block **prev;$/;"	m	struct:task_control_block	typeref:struct:task_control_block::task_control_block	file:
+priority	kernel.c	/^    int priority;$/;"	m	struct:task_control_block	file:
+puts	kernel.c	/^void puts(char *s)$/;"	f
+queue_str_task	kernel.c	/^void queue_str_task(const char *str, int delay)$/;"	f
+queue_str_task1	kernel.c	/^void queue_str_task1()$/;"	f
+queue_str_task2	kernel.c	/^void queue_str_task2()$/;"	f
+r0	kernel.c	/^	unsigned int r0;$/;"	m	struct:user_thread_stack	file:
+r1	kernel.c	/^	unsigned int r1;$/;"	m	struct:user_thread_stack	file:
+r10	kernel.c	/^	unsigned int r10;$/;"	m	struct:user_thread_stack	file:
+r2	kernel.c	/^	unsigned int r2;$/;"	m	struct:user_thread_stack	file:
+r3	kernel.c	/^	unsigned int r3;$/;"	m	struct:user_thread_stack	file:
+r4	kernel.c	/^	unsigned int r4;$/;"	m	struct:user_thread_stack	file:
+r5	kernel.c	/^	unsigned int r5;$/;"	m	struct:user_thread_stack	file:
+r6	kernel.c	/^	unsigned int r6;$/;"	m	struct:user_thread_stack	file:
+r7	kernel.c	/^	unsigned int r7;$/;"	m	struct:user_thread_stack	file:
+r8	kernel.c	/^	unsigned int r8;$/;"	m	struct:user_thread_stack	file:
+r9	kernel.c	/^	unsigned int r9;$/;"	m	struct:user_thread_stack	file:
+read	kernel.c	/^	int (*read) (struct pipe_ringbuffer*, struct task_control_block*);$/;"	m	struct:pipe_ringbuffer	file:
+readable	kernel.c	/^	int (*readable) (struct pipe_ringbuffer*, struct task_control_block*);$/;"	m	struct:pipe_ringbuffer	file:
+rs232_xmit_msg_task	kernel.c	/^void rs232_xmit_msg_task()$/;"	f
+serial_readwrite_task	kernel.c	/^void serial_readwrite_task()$/;"	f
+serial_test_task	kernel.c	/^void serial_test_task()$/;"	f
+serialin	kernel.c	/^void serialin(USART_TypeDef* uart, unsigned int intr)$/;"	f
+serialout	kernel.c	/^void serialout(USART_TypeDef* uart, unsigned int intr)$/;"	f
+show_cmd_info	kernel.c	/^void show_cmd_info(int argc, char* argv[])$/;"	f
+show_echo	kernel.c	/^void show_echo(int argc, char* argv[])$/;"	f
+show_history	kernel.c	/^void show_history(int argc, char *argv[])$/;"	f
+show_man_page	kernel.c	/^void show_man_page(int argc, char *argv[])$/;"	f
+show_task_info	kernel.c	/^void show_task_info(int argc, char* argv[])$/;"	f
+stack	kernel.c	/^	unsigned int stack[STACK_SIZE - 18];$/;"	m	struct:user_thread_stack	file:
+stack	kernel.c	/^    struct user_thread_stack *stack;$/;"	m	struct:task_control_block	typeref:struct:task_control_block::user_thread_stack	file:
+start	kernel.c	/^	int start;$/;"	m	struct:pipe_ringbuffer	file:
+status	kernel.c	/^    int status;$/;"	m	struct:task_control_block	file:
+strcmp	kernel.c	/^int strcmp(const char *a, const char *b)$/;"	f
+strlen	kernel.c	/^size_t strlen(const char *s)$/;"	f
+strncmp	kernel.c	/^int strncmp(const char *a, const char *b, size_t n)$/;"	f
+task_control_block	kernel.c	/^struct task_control_block {$/;"	s	file:
+task_count	kernel.c	/^size_t task_count = 0;$/;"	v
+task_pop	kernel.c	/^task_pop (struct task_control_block **list)$/;"	f
+task_push	kernel.c	/^task_push (struct task_control_block **list, struct task_control_block *item)$/;"	f
+tasks	kernel.c	/^struct task_control_block tasks[TASK_LIMIT];$/;"	v	typeref:struct:task_control_block
+traceTASK_SWITCHED_IN	RTOSConfig.h	40;"	d
+traceTASK_SWITCHED_OUT	RTOSConfig.h	38;"	d
+user_thread_stack	kernel.c	/^struct user_thread_stack {$/;"	s	file:
+vPortSVCHandler	RTOSConfig.h	6;"	d
+value	kernel.c	/^	char value[MAX_ENVVALUE + 1];$/;"	m	struct:__anon3	file:
+writable	kernel.c	/^	int (*writable) (struct pipe_ringbuffer*, struct task_control_block*);$/;"	m	struct:pipe_ringbuffer	file:
+write	kernel.c	/^	int (*write) (struct pipe_ringbuffer*, struct task_control_block*);$/;"	m	struct:pipe_ringbuffer	file:
+write_blank	kernel.c	/^int write_blank(int blank_num)$/;"	f
+xPortPendSVHandler	RTOSConfig.h	4;"	d
+xPortSysTickHandler	RTOSConfig.h	5;"	d
+xpsr	kernel.c	/^	unsigned int xpsr;$/;"	m	struct:user_thread_stack	file:
